@@ -1,4 +1,5 @@
-const Table = ({ columns, data }) => {
+import './Table.css'
+export const Table = ({ columns, data }) => {
   return (
     <table className="table table-bordered table-hover">
       <thead>
@@ -34,4 +35,3 @@ const Table = ({ columns, data }) => {
   );
 };
 
-export default Table;
